@@ -23,7 +23,7 @@ const ImageUpload: React.FC = () => {
           onChange={handleImageUpload} 
           className="p-2 mb-4 border border-gray-300 rounded"
         />
-        {image && <img src={image.toString()} alt="Preview" className="mt-4 rounded shadow" />}
+        {image && <img src={image.toString()} alt="Preview" className="mt-4 rounded shadow w-1/4" />}
       </div>
     </div>
   );
